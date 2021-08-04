@@ -22,7 +22,7 @@ namespace Boleto2Net
             {
                 string numero = value.Trim().Replace(".", "").Replace("-", "").Replace("/", "");
                 if (numero == null || (numero.Length != 11 && numero.Length != 14))
-                    throw new ArgumentException("CPF/CNPJ inválido: Utilize 11 dígitos para CPF ou 14 para CPNJ.");
+                    throw new ArgumentException("CPF/CNPJ inválido: Utilize 11 dígitos para CPF ou 14 para CNPJ.");
                 _cpfcnpj = numero;
             }
         }

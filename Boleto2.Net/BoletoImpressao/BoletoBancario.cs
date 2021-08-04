@@ -455,7 +455,7 @@ namespace Boleto2Net
                 .Replace("@ENDERECOSACADO", enderecoSacado)
                 .Replace("@AVALISTA", avalista)
                 .Replace("@AGENCIACODIGOCEDENTE", Boleto.Banco.Cedente.CodigoFormatado)
-                .Replace("@CPFCNPJ", Boleto.Banco.Cedente.CPFCNPJ)
+                .Replace("@CPFCNPJ", Utils.FormataCNPJ(Boleto.Banco.Cedente.CPFCNPJ))
                 .Replace("@AUTENTICACAOMECANICA", "")
                 .Replace("@USODOBANCO", Boleto.UsoBanco)
                 .Replace("@IMAGEMCODIGOBARRA", imagemCodigoBarras)
