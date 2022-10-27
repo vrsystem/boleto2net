@@ -894,7 +894,7 @@ namespace Boleto2Net
 
                 var fnLinha = string.Format("data:image/gif;base64,{0}", base64Linha);
 
-                Boleto.CodigoBarra.LinhaDigitavel = @"<img style=""max-width:420px; margin-bottom: 2px"" src=" + fnLinha + " />";
+                Boleto.CodigoBarra.LinhaDigitavel = @"<img style=""max-width:450px; margin-bottom: 2px"" src=" + fnLinha + " />";
             }
 
             if (!string.IsNullOrEmpty(urlImagemLogoCedente))
