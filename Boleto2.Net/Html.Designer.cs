@@ -19,7 +19,7 @@ namespace Boleto2Net {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Html {
@@ -377,7 +377,7 @@ namespace Boleto2Net {
         ///						&lt;td class=&quot;barra&quot;&gt;&lt;img src=&quot;@URLIMAGEMBARRA&quot; /&gt;&lt;/td&gt;
         ///						&lt;td class=&quot;w65 Ab bc Ac&quot;&gt;@CODIGOBANCO-@DIGITOBANCO&lt;/td&gt;
         ///						&lt;td class=&quot;barra&quot;&gt;&lt;img src=&quot;@URLIMAGEMBARRA&quot; /&gt;&lt;/td&gt;
-        ///						&lt;td class=&quot;w450 Ar ld&quot; valign=&quot;bottom&quot;&gt;@LINHADIGITAVEL&lt;/td&gt;
+        ///						&lt;td class=&quot;w450 Ar Ab ld&quot;&gt;@LINHADIGITAVEL&lt;/td&gt;
         ///				&lt;/tr&gt;
         ///		&lt;/table&gt;.
         /// </summary>
@@ -449,7 +449,7 @@ namespace Boleto2Net {
         /// <summary>
         ///   Looks up a localized string similar to &lt;table class=&quot;w666&quot;&gt;
         ///				&lt;tr class=&quot;ct h13&quot;&gt;
-        ///						&lt;td class=&quot;w472&quot;&gt;Beneficiário&lt;/td&gt;
+        ///						&lt;td class=&quot;w465&quot;&gt;Beneficiário&lt;/td&gt;
         ///						&lt;td class=&quot;w180&quot;&gt;Agência / Código Beneficiário&lt;/td&gt;
         ///				&lt;/tr&gt;
         ///				&lt;tr class=&quot;cp h12 rBb&quot;&gt;
@@ -471,7 +471,7 @@ namespace Boleto2Net {
         ///						&lt;td class=&quot;w163&quot;&gt;N&lt;u&gt;o&lt;/u&gt; documento&lt;/td&gt;
         ///						&lt;td class=&quot;w62&quot;&gt;Espécie doc.&lt;/td&gt;
         ///						&lt;td class=&quot;w34&quot;&gt;Aceite&lt;/td&gt;
-        ///						&lt;td class=&quot;w72&quot;&gt;Data processamento&lt;/td&gt;
+        ///						&lt;td class=&quot;w74&quot;&gt;Data processamento&lt;/td&gt;
         ///						&lt;td class=&quot;w180&quot;&gt;Carteira / Nosso número&lt;/td&gt;
         ///				&lt;/tr&gt;
         ///				&lt;tr class=&quot;cp h12 rBb&quot;&gt;
@@ -495,7 +495,7 @@ namespace Boleto2Net {
         ///						&lt;td class=&quot;w83&quot;&gt;Carteira&lt;/td&gt;
         ///						&lt;td class=&quot;w53&quot;&gt;Espécie&lt;/td&gt;
         ///						&lt;td class=&quot;w123&quot;&gt;Quantidade&lt;/td&gt;
-        ///						&lt;td class=&quot;w72&quot;&gt;(x) Valor&lt;/td&gt;
+        ///						&lt;td class=&quot;w74&quot;&gt;(x) Valor&lt;/td&gt;
         ///						&lt;td class=&quot;w180 bgcGray&quot;&gt;(=) Valor documento&lt;/td&gt;
         ///				&lt;/tr&gt;
         ///				&lt;tr class=&quot;cp h12 rBb&quot;&gt;
@@ -516,15 +516,13 @@ namespace Boleto2Net {
         ///				&lt;tr class=&quot;rc6&quot;&gt;
         ///						&lt;td class=&quot;w478&quot;&gt;
         ///								&lt;div class=&quot;ctN pL10&quot;&gt;Instruções (Texto de responsabilidade do beneficiário)&lt;/div&gt;
-        ///								&lt;div class=&quot;cpN pL10&quot;&gt;@INSTRUCOES&lt;/div&gt;
-        ///						&lt;/td&gt;
-        ///						&lt;td class=&quot;w186&quot;&gt;
-        ///								&lt;div class=&quot;t&quot;&gt;(-) Desconto / Abatimentos&lt;/div&gt;
-        ///								&lt;div class=&quot;c BB Ar&quot;&gt;@DESCONTOS&lt;/div&gt;
-        ///								&lt;div class=&quot;t&quot;&gt;(-) Outras deduções&lt;/div&gt;
-        ///								&lt;div class=&quot;c BB Ar&quot;&gt;@OUTRASDEDUCOES&lt;/div&gt;
-        ///								&lt;div class=&quot;t&quot;&gt;(+) Mora / Multa&lt;/div&gt;
-        ///								&lt;di [rest of string was truncated]&quot;;.
+        ///								&lt;table style=&quot;width: 100%; border: none;&quot;&gt;
+        ///										&lt;tr style=&quot;border: none;&quot;&gt;
+        ///												&lt;td style=&quot;border: none;&quot;&gt;&lt;div class=&quot;cpN pL10 it&quot; style=&quot;height:px; overflow:hidden; border: none;&quot;&gt;@INSTRUCOES&lt;/div&gt;&lt;/td&gt;
+        ///												&lt;td style=&quot;text-align: right; border: none;&quot;&gt;@QRCODE&lt;/td&gt;
+        ///										&lt;/tr&gt;
+        ///										&lt;tr class=&quot;copiarcolar&quot;&gt;
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ReciboCedenteParte6 {
             get {
@@ -637,7 +635,6 @@ namespace Boleto2Net {
         ///						&lt;td class=&quot;barra&quot;&gt;&lt;img src=&quot;@URLIMAGEMBARRA&quot; /&gt;&lt;/td&gt;
         ///						&lt;td class=&quot;w65 Ab bc Ac&quot;&gt;@CODIGOBANCO-@DIGITOBANCO&lt;/td&gt;
         ///						&lt;td class=&quot;barra&quot;&gt;&lt;img src=&quot;@URLIMAGEMBARRA&quot; /&gt;&lt;/td&gt;
-        ///						&lt;td class=&quot;w150 cn8 Al Ab&quot;&gt;@MENSAGEMFIXATOPOBOLETO&lt;/td&gt;
         ///						&lt;td class=&quot;w450 Ar Ab ld&quot;&gt;@LINHADIGITAVEL&lt;/td&gt;
         ///				&lt;/tr&gt;
         ///		&lt;/table&gt;.
@@ -678,7 +675,7 @@ namespace Boleto2Net {
         ///						&lt;td class=&quot;w192&quot;&gt;Número do documento&lt;/td&gt;
         ///						&lt;td class=&quot;w132&quot;&gt;CPF/CNPJ&lt;/td&gt;
         ///						&lt;td class=&quot;w134&quot;&gt;Vencimento&lt;/td&gt;
-        ///						&lt;td class=&quot;w180&quot;&gt;Valor documento&lt;/td&gt;
+        ///						&lt;td class=&quot;w182&quot;&gt;Valor documento&lt;/td&gt;
         ///				&lt;/tr&gt;
         ///				&lt;tr class=&quot;cp h12 rBb&quot;&gt;
         ///						&lt;td&gt;@NUMERODOCUMENTO&lt;/td&gt;
@@ -753,14 +750,16 @@ namespace Boleto2Net {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;table class=&quot;ctN w666&quot;&gt;
-        ///				&lt;tr class=&quot;h13&quot;&gt;Autenticação mecânica&lt;td /&gt;&lt;/tr&gt;
+        ///   Looks up a localized string similar to 
+        ///	&lt;table class=&quot;ctN w666&quot;&gt;
+        ///				&lt;tr&gt;&lt;td class=&quot;Ar&quot;&gt;Autenticação mecânica&lt;/td&gt;&lt;/tr&gt;
         ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td /&gt;&lt;/tr&gt;
         ///				&lt;tr&gt;&lt;td class=&quot;Ar&quot;&gt;Corte na linha pontilhada&lt;/td&gt;&lt;/tr&gt;
         ///				&lt;tr&gt;&lt;td class=&quot;cut&quot; /&gt;&lt;/tr&gt;
         ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td /&gt;&lt;/tr&gt;
         ///				&lt;tr class=&quot;h13&quot;&gt;&lt;td /&gt;&lt;/tr&gt;
-        ///		&lt;/table&gt;.
+        ///		&lt;/table&gt;
+        ///		.
         /// </summary>
         internal static string ReciboSacadoParte8 {
             get {
