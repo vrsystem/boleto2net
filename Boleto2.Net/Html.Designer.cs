@@ -124,7 +124,8 @@ namespace Boleto2Net {
         ///														&lt;/td&gt;
         ///												&lt;/tr&gt;
         ///												&lt;tr class=&quot;cp h12 At rBb&quot;&gt;
-        ///														&lt;td&gt;        /// [rest of string was truncated]&quot;;.
+        ///														&lt;td&gt;
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Carne {
             get {
@@ -696,7 +697,7 @@ namespace Boleto2Net {
         ///				&lt;tr class=&quot;ct h13&quot;&gt;
         ///						&lt;td class=&quot;w113&quot;&gt;(-) Desconto / Abatimentos&lt;/td&gt;
         ///						&lt;td class=&quot;w112&quot;&gt;(-) Outras deduções&lt;/td&gt;
-        ///						&lt;td class=&quot;w113&quot;&gt;(+) Mora / Multa&lt;/td&gt;
+        ///						&lt;td class=&quot;w113&quot;&gt;(+) Juros / Multa&lt;/td&gt;
         ///						&lt;td class=&quot;w113&quot;&gt;(+) Outros acréscimos&lt;/td&gt;
         ///						&lt;td class=&quot;w180&quot;&gt;(=) Valor cobrado&lt;/td&gt;
         ///				&lt;/tr&gt;
@@ -706,7 +707,7 @@ namespace Boleto2Net {
         ///						&lt;td&gt;@MORAMULTA&lt;/td&gt;
         ///						&lt;td&gt;@OUTROSACRESCIMOS&lt;/td&gt;
         ///						&lt;td class=&quot;Ar&quot;&gt;&amp;nbsp;@VALORCOBRADO&lt;/td&gt;
-        ///				&lt;/ [rest of string was truncated]&quot;;.
+        ///				&lt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ReciboSacadoParte5 {
             get {
